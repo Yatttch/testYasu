@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 gDf = pd.DataFrame(index=[],columns=["title","headline"]) #空のデータフレーム作成
-#↓ここで，１行だけ追加，あとはこの１行を使い回し，１ぎょうづつ書き出す
+#↓ここで，１行だけ追加，あとはこの１行を使い回し，１行づつ書き出す
 gDf = gDf.append(pd.DataFrame(index=[0],columns=["title","headline"]))
 
 #NewsNo = 1
